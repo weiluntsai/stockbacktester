@@ -191,7 +191,7 @@ elif market_type == "Taiwan (TPEx - .TWO)":
 
 st.sidebar.caption(f"Processing as: **{final_ticker}**")
 
-days_to_test = st.sidebar.slider("Backtest Period (Days)", 30, 365, 120)
+days_to_test = st.sidebar.slider("Backtest Period (Days)", 30, 720, 120)
 initial_capital = st.sidebar.number_input("Initial Capital ($)", value=100000.0)
 
 st.sidebar.markdown("---")
